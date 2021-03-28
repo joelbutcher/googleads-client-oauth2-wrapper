@@ -1,5 +1,20 @@
 # Google Ads Client OAuth2 Wrapper
 
+<p align="center">
+    <a href="https://github.com/joelbutcher/googleads-client-oauth2-wrapper/actions">
+        <img src="https://github.com/joelbutcher/googleads-client-oauth2-wrapper/workflows/tests/badge.svg" alt="Build Status">
+    </a>
+    <a href="https://packagist.org/packages/joelbutcher/googleads-client-oauth2-wrapper">
+        <img src="https://img.shields.io/packagist/dt/joelbutcher/googleads-client-oauth2-wrapper" alt="Total Downloads">
+    </a>
+    <a href="https://packagist.org/packages/joelbutcher/googleads-client-oauth2-wrapper">
+        <img src="https://img.shields.io/packagist/v/joelbutcher/googleads-client-oauth2-wrapper" alt="Latest Stable Version">
+    </a>
+    <a href="https://packagist.org/packages/joelbutcher/googleads-client-oauth2-wrapper">
+        <img src="https://img.shields.io/packagist/l/joelbutcher/googleads-client-oauth2-wrapper" alt="License">
+    </a>
+</p>
+
 A lightweight and easy-to-configure OAuth2 wrapper for the Google Ads PHP library.
 
 ## Configuration
