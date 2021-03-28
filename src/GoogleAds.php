@@ -181,7 +181,7 @@ class GoogleAds
      * @param string $message
      *
      * @return void
-     * 
+     *
      * @throws \JoelButcher\GoogleAds\ConfigException
      */
     protected static function throwNewConfigException(string $message)
