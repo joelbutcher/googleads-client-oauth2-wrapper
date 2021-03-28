@@ -72,7 +72,8 @@ Socialstream is developed and maintained by [Joel Butcher](https://joelbutcher.c
 
 ## Credits
 
-Socialstream has a strong community of contributors helping make it the best package for integrating Socialite into your application. You can view all contributers [here](https://github.com/joelbutcher/socialstream/graphs/contributors)
+Socialstream has a strong community of contributors helping make it the best package for integrating Socialite into your application. You can view all contributers [here](https://github.com/joelbutcher/
+googleads-client-oauth2-wrapper/graphs/contributors)
 
 ## License
 
