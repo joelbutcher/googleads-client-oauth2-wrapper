@@ -4,8 +4,8 @@
     "keywords": ["googleads", "google", "advertising"],
     "license": "MIT",
     "support": {
-        "issues": "https://github.com/joelbutcher/googleads",
-        "source": "https://github.com/joelbutcher/googleads"
+        "issues": "https://github.com/joelbutcher/googleads-client-oauth2-wrapper",
+        "source": "https://github.com/joelbutcher/googleads-client-oauth2-wrappers"
     },
     "authors": [
         {
