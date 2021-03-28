@@ -12,8 +12,6 @@ use JoelButcher\GoogleAds\GoogleAds;
 use JoelButcher\GoogleAds\GoogleAdsException;
 use PHPUnit\Framework\TestCase;
 
-use function PHPUnit\Framework\assertArrayHasKey;
-
 class GoogleAdsTest extends TestCase
 {
     public function test_it_throws_google_ads_exception_if_not_authorized()
@@ -142,7 +140,7 @@ class GoogleAdsTest extends TestCase
 
     public function configProvider()
     {
-        $config = ['client_id' => 'some-id', 'client_secret' => 'some-secret', 'developer_token' => 'some-dev-token', 'login_customer_id' => 12345678];;
+        $config = ['client_id' => 'some-id', 'client_secret' => 'some-secret', 'developer_token' => 'some-dev-token', 'login_customer_id' => 12345678];
 
         return [
             [$config],
