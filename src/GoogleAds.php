@@ -3,7 +3,6 @@
 namespace JoelButcher\GoogleAds;
 
 use Google\Ads\GoogleAds\Lib\OAuth2TokenBuilder;
-use Google\Ads\GoogleAds\Lib\V6\GoogleAdsClient;
 use Google\Ads\GoogleAds\Lib\V6\GoogleAdsClientBuilder;
 use Illuminate\Support\Traits\ForwardsCalls;
 
@@ -89,7 +88,7 @@ class GoogleAds
     }
 
     /**
-     * Get the Google Ads Client Builder for a given refresh token
+     * Get the Google Ads Client Builder for a given refresh token.
      *
      * @param  string  $refreshToken
      * @return \Google\Ads\GoogleAds\Lib\V6\GoogleAdsClientBuilder
@@ -140,7 +139,7 @@ class GoogleAds
     /**
      * Determine if the services has been authorized.
      *
-     * @return boolean
+     * @return bool
      */
     public function isAuthorized(): bool
     {
@@ -151,7 +150,6 @@ class GoogleAds
      * Validate that the services has been propertly configured.
      *
      * @return void
-     * 
      * @throws \JoelButcher\GoogleAds\ConfigException
      */
     private function validateConfig()
@@ -208,17 +206,5 @@ class GoogleAds
         }
 
         return $this->forwardCallTo($this->googleAdsClient, $method, $parameters);
-    }
-
-    /**
-     * Handle dynamic static method calls into the model.
-     *
-     * @param  string  $method
-     * @param  array  $parameters
-     * @return mixed
-     */
-    public static function __callStatic($method, $parameters)
-    {
-        return (new static)->$method(...$parameters);
     }
 }

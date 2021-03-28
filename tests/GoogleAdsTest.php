@@ -143,6 +143,7 @@ class GoogleAdsTest extends TestCase
     public function configProvider()
     {
         $config = ['client_id' => 'some-id', 'client_secret' => 'some-secret', 'developer_token' => 'some-dev-token', 'login_customer_id' => 12345678];;
+
         return [
             [$config],
         ];
